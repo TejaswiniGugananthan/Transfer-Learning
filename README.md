@@ -29,7 +29,7 @@ Make predictions on new data using the trained model.
 from torchvision.models import VGG19_Weights
 model = models.vgg19(pretrained=True)
 ```
-```pyhton
+```python
 
 # Modify the final fully connected layer to match the dataset classes
 
@@ -100,7 +100,7 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/fc190d27-4699-41fd-9bc1-faf3fa4cceea)
+![image](https://github.com/user-attachments/assets/687b3f0b-17e7-46b0-a201-8b276072a976)
 
 
 ### Confusion Matrix
